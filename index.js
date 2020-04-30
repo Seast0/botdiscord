@@ -24,7 +24,7 @@ function doRequest(text, emojiID = null, emojiName = null) {
 			method: "PATCH",
 			uri: STATUS_URL,
 			headers: {
-				Authorization: config.token
+				Authorization: process.env.token
 			},
 			json: {
 				custom_status: {
