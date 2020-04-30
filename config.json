@@ -4,6 +4,6 @@
 		"in_start": false,
 		"global_text": "sleeping.",
 		"timeout": 2000,
-		"text": ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"]
+		"text": ["🌓", "🌔", "🌕", "🌖", "🌗", "🌑"]
 	}
 }
