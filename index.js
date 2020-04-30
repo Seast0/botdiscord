@@ -3,8 +3,10 @@ const config = require("./config.json");
 const STATUS_URL = "https://discordapp.com/api/v6/users/@me/settings";
 
 async function loop() {
-	for (let anim of config.animation) {
-		let res = await doRequest(anim.text, anim.emojiID, anim.emojiName).catch(console.error);
+	let anim = config.animation;
+	let globalStatus = anim.global_text;
+	for (let status of anim.text) {
+		let res = await doRequest(anim.in_start ? globalStatus + status : status + globalStatus).catch(console.error);
 		if (!res) {
 			// Die
 			return;
@@ -24,7 +26,7 @@ function doRequest(text, emojiID = null, emojiName = null) {
 			method: "PATCH",
 			uri: STATUS_URL,
 			headers: {
-				Authorization: process.env.token
+				Authorization: config.token
 			},
 			json: {
 				custom_status: {
