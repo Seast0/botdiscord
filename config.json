@@ -2,8 +2,8 @@
 	"token": "MzE1MTA5ODY5MTMwNzQzODA5.XiRpxg.ccIAf95_ieQvwb0Lk8od6L1UF-4",
 	"animation": {
 		"in_start": false,
-		"global_text": "playin' valorant",
-		"timeout": 1000,
-		"text": ["⚽ ", "🏀"]
+		"global_text": "sleeping.",
+		"timeout": 2000,
+		"text": ["🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘"]
 	}
 }
