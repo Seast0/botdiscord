@@ -3,7 +3,7 @@
 	"animation": {
 		"in_start": false,
 		"global_text": "sleeping.",
-		"timeout": 300,
-		"text": ["💗", "🧡", "💛", "💚", "💙", "💜"]
+		"timeout": 500,
+		"text": ["💗", "🧡", "💛", "💚", "💙", "💜", "💙", "💚", "💛", "🧡"]
 	}
 }
