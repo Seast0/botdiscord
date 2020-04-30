@@ -1,0 +1,44 @@
+{
+	"token": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+	"animation": [
+		{
+			"text": "💗💗💗️",
+			"emojiID": null,
+			"emojiName": null,
+			"timeout": 1000
+		},
+		{
+			"text": "🧡🧡🧡",
+			"emojiID": null,
+			"emojiName": null,
+			"timeout": 1000
+		},
+		{
+			"text": "💛💛💛",
+			"emojiID": null,
+			"emojiName": null,
+			"timeout": 1000
+		},
+		{
+			"text": "💚💚💚",
+			"emojiID": null,
+			"emojiName": null,
+			"timeout": 1000
+		},
+		
+		{
+			"text": "💙💙💙",
+			"emojiID": null,
+			"emojiName": null,
+			"timeout": 1000
+		},
+		{
+			"text": "💜💜💜",
+			"emojiID": null,
+			"emojiName": null,
+			"timeout": 1000
+		}
+		
+		
+	]
+}
