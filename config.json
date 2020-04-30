@@ -2,8 +2,8 @@
 	"token": "xxxxxxxxxxxxxxxxxxxxxx",
 	"animation": {
 		"in_start": false,
-		"global_text": "sleeping.",
+		"global_text": "",
 		"timeout": 1500,
-		"text": ["🌓", "🌔", "🌕", "🌖", "🌗", "🌑"]
+		"text": ["🌓 sleeping", "🌔 sleeping.", "🌕 sleeping..", "🌖 sleeping...", "🌗 sleeping..", "🌑 sleeping."]
 	}
 }
