@@ -3,7 +3,7 @@
 	"animation": {
 		"in_start": false,
 		"global_text": "playin' valorant",
-		"timeout": 300,
+		"timeout": 1000,
 		"text": ["⚽ ", "🏀"]
 	}
 }
